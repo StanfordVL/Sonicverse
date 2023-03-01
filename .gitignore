@@ -88,34 +88,13 @@ igibson/render/mesh_renderer/libcryptopp.so.8.6
 igibson/render/mesh_renderer/libcryptopp.dylib
 igibson/render/mesh_renderer/libcryptopp.8.6.dylib
 
+# audio_system
+igibson/audio/audio.cpython-38-x86_64-linux-gnu.so
+
 # Coverage
 .coverage
 coverage.xml
 
 #audio
-igibson/audio/resonance_audio/*
-
-igibson/agents/savi_rt/pkgs*/*
-igibson/agents/savi_rt_new/pkgs*/*
-igibson/agents/av_nav/pkgs/*
-igibson/agents/smt/pkgs*/*
-
-igibson/agents/savi_rt/pkgs/cache*/
-igibson/agents/smt/pkgs/cache*/
-
 igibson/audio/background_noise.wav
-igibson/examples/*
-
-pkgs/*
-test.mp4
-visual_disease/*
-*mp4
 igibson.egg-info/*
-igibson/audio/audio_dataset
-igibson/agents/av_nav/pkgs/*
-igibson/agents/av_nav/pkgs
-igibson/agents/savi_rt/pkgs/*
-igibson/agents/savi_rt/pkgs
-igibson/agents/smt/pkgs/*
-igibson/agents/smt/pkgs
-igibson/audio/semantic_splits/*
