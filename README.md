@@ -64,5 +64,11 @@ For audio dataset, we use the sounds collected by [Soundspace dataset](https://g
 
 For usage, please refer to the example files in Sonicverse/Sonicverse/igibson/examples/audio_system. We have tested the simulator on Linux/Windows with an Nvidia GPU with VRAM > 6.0 GB. All the experiments are conducted with a rendering frame rate of 10 Hz and an audio sampling rate of 48000 Hz. Other configuration may also work.
 
+To train agents, please refer to the third example in audio_system_example.py. First, an environment is created with example_config.yaml. Then, by giving actions at each timestep, the environment will return state(observations), reward, done signal, and related infos. By collecting these data, a model can be trained for robot navigation.
+
+The environment includes a scene, a task, a robot, a sound source. These features can be set in the example_config.yaml. In the example, we use the iGibson scene called 'Rs_int'. We set the task to be AudioGoal, which is to let the robot reach the target based on audio inputs. The sound source is specified in the task as the telephone sound. The reward and termination conditions can also be set in the task. The robot is generated as a Turtlebot, and is able to receive depth inputs, audio inputs, self-states, and collision signal.
+
+By creating new tasks under igibson/tasks/, you would be able defined your own goals for the robot to achieve. You are also free to play with different robots, sensors, sound sources, and scenes.
+
 ### Contributing
 This is the github repository for SONICVERSE release. Bug reports, suggestions for improvement, as well as community developments are encouraged and appreciated. Please, consider creating an issue or sending us an email. 
