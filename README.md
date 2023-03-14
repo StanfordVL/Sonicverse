@@ -66,7 +66,13 @@ For usage, please refer to the example files in Sonicverse/Sonicverse/igibson/ex
 
 To train agents, please refer to the third example in audio_system_example.py. First, an environment is created with example_config.yaml. Then, by giving actions at each timestep, the environment will return state(observations), reward, done signal, and related infos. By collecting these data, a model can be trained for robot navigation.
 
-The environment includes a scene, a task, a robot, a sound source. These features can be set in the example_config.yaml. In the example, we use the iGibson scene called 'Rs_int'. We set the task to be AudioGoal, which is to let the robot reach the target based on audio inputs. The sound source is specified in the task as the telephone sound. The reward and termination conditions can also be set in the task. The robot is generated as a Turtlebot, and is able to receive depth inputs, audio inputs, self-states, and collision signal.
+The environment includes a **scene**, a **task**, a **robot**. 
+
+These features can be set in the example_config.yaml. In the example, 
+
+- We use an iGibson scene called 'Rs_int'. 
+- We set the task to be AudioGoal, which is to let the robot reach the target only based on audio inputs. The reward and termination conditions can be set in the task. The sound source is also specified in the task as the telephone sound. 
+- The robot is generated as a Turtlebot, and is able to receive depth inputs, audio inputs, self-states, and collision signal.
 
 By creating new tasks under igibson/tasks/, you would be able defined your own goals for the robot to achieve. You are also free to play with different robots, sensors, sound sources, and scenes.
 
