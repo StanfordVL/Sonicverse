@@ -76,4 +76,4 @@ By creating new tasks under igibson/tasks/, you would be able to define your own
 This is the github repository for Sonicverse release. Bug reports, suggestions for improvement, as well as community developments are encouraged and appreciated. Please, consider creating an issue or sending us an email.
 
 ### License and Acknowledgements
-The Sonicverse simulator is CC BY 4.0 licensed, as found in the LICENSE file. It is built upon [iGibson](https://github.com/StanfordVL/iGibson) and [Resonance audio](https://resonance-audio.github.io/resonance-audio/), so please also refer to their original lisence file. We appreciate them for open-sourcing their great simulation frameworks for embodied AI and spatial audio simulation.
+The Sonicverse simulator is under MIT License, as found in the LICENSE file. It is built upon [iGibson](https://github.com/StanfordVL/iGibson) and [Resonance audio](https://resonance-audio.github.io/resonance-audio/), so please also refer to their original lisence file. We appreciate them for open-sourcing their great simulation frameworks for embodied AI and spatial audio simulation.
